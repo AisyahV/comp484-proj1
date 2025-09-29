@@ -68,6 +68,9 @@ p {
 .right {
     margin-right: 230px;       /* keeps text column readable */
 }
+.catimg {
+  height: 450px;  
+}
 
 footer {
   text-align: right;
