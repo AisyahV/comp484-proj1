@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header role="banner">
+        <h1>
+            ───𑄝─── &nbsp;&nbsp; Aisyah's Website &nbsp;&nbsp; ───𑄝───
+        </h1>
+        <p>
+            <button onclick="location.href='page1.html'" class="first page" type="button"> <!-- Element: Button -->
+                Home
+            </button>
+            <button onclick="location.href='page2.html'" class="second page" type="button">
+                About Me
+            </button>
+            <button onclick="location.href='page3.html'" class="third page" type="button">
+                Pictures
+            </button>
+            <button onclick="location.href='page4.html'" class="fourth page" type="button">
+                Reference
+            </button>
+        </p>
+    </header>
+    <main role="main">
+        <p>
+            <img src="https://static.vecteezy.com/system/resources/previews/042/056/172/non_2x/ai-generated-playful-cat-in-torn-paper-hole-cat-peeking-through-paper-transparent-cutout-free-png.png"
+                height="280" alt="cat">
+            <video height="395" autoplay muted loop> <!-- Element: Video | Attribute: Autoplay, Loop -->
+                <!-- In order for autoplay to work the video must be muted -->
+                <!-- Modern browsers (ex. Chrome) block autoplay with sound to stop websites from blasting music at users -->
+                <source src="catdance.mp4" type="video/mp4">
+            </video>
+            <img src="https://static.vecteezy.com/system/resources/previews/042/056/172/non_2x/ai-generated-playful-cat-in-torn-paper-hole-cat-peeking-through-paper-transparent-cutout-free-png.png"
+                height="280" alt="cat" class="flip">
+        </p>
+        <p>
+            <b>Give the cat music:</b>
+        </p>
+        <p>
+            <audio controls> <!--Element: Audio | Attribute: Controls -->
+                <!-- Unable to use autoplay for audio since Sites that automatically play audio (or videos with an audio track)
+            can be an unpleasant experience for users, so should be avoided when possible -->
+                <source
+                    src="https://lambda.vgmsite.com/soundtracks/the-legendary-starfy-original-soundtrack-2018/xkifqorsfe/24.%20Wireless%20Stage.mp3"
+                    type="audio/mpeg">
+            </audio>
+        </p>
+    </main>
+    <footer role="pagenumber">
+        Page 1
+    </footer>
+</body>
